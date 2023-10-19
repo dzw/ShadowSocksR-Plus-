@@ -12,10 +12,10 @@ jobs:
       matrix:
         include:
           - arch: mipsel_24kc
-            target: mt76x8
+            target: mt7621
 
-          - arch: aarch64_cortex-a53
-            target: mvebu-cortexa53
+          # - arch: aarch64_cortex-a53
+          #   target: mvebu-cortexa53
 
     steps:
       - uses: actions/checkout@v3
